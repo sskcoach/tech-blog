@@ -18,7 +18,19 @@ theme = 'stack'
   readingTime = true
 
 [params.comments]
-  enabled = false
+  enabled = true
+  provider = "giscus"
+
+[params.comments.giscus]
+  repo = "sskcoach/tech-blog"
+  repoID = "R_kgDORObi7Q"
+  category = "General"
+  categoryID = "DIC_kwDORObi7c4C2Ren"
+  mapping = "pathname"
+  lightTheme = "light"
+  darkTheme = "dark_dimmed"
+  reactionsEnabled = 1
+  emitMetadata = 0
 
 [markup]
   [markup.highlight]
