@@ -1,0 +1,42 @@
+baseURL = 'https://tech.mdflare.com/'
+languageCode = 'ko'
+title = 'Tech Side Story'
+theme = 'stack'
+
+[params]
+  description = '매일 배우고 기록하는 기술 블로그'
+  mainSections = ['post']
+  favicon = '/favicon.ico'
+
+[params.sidebar]
+  emoji = '🔧'
+  subtitle = '매일 배우고 기록하는 기술 블로그'
+
+[params.article]
+  math = false
+  toc = true
+  readingTime = true
+
+[params.comments]
+  enabled = false
+
+[markup]
+  [markup.highlight]
+    lineNos = true
+    style = 'monokai'
+  [markup.goldmark.renderer]
+    unsafe = true
+
+[menu]
+  [[menu.main]]
+    name = 'Home'
+    url = '/'
+    weight = 1
+  [[menu.main]]
+    name = 'Archives'
+    url = '/archives'
+    weight = 2
+  [[menu.main]]
+    name = 'Search'
+    url = '/search'
+    weight = 3
