@@ -109,10 +109,3 @@ Port 22
 PermitRootLogin prohibit-password
 ```
 
-## 핵심 정리
-
-- 방화벽은 기본 중의 기본이다. `ss -tlnp`로 열린 포트부터 확인할 것
-- 사용하지 않는 포트는 반드시 닫을 것
-- Cloudflare Tunnel을 쓰면 웹 서비스 포트를 외부에 노출할 필요가 없다
-- fail2ban으로 SSH 브루트포스 공격을 자동 차단할 수 있다
-- 서비스 로그를 확인하면 이미 공격당하고 있는지 알 수 있다
